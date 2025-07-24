@@ -29,9 +29,9 @@ jobs:
 
     - name: Run Job Alerter
       env:
-        SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
-        SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
-        RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
+        SENDER_EMAIL: ${{ secrets.SENDEREMAIL }}
+        SENDER_PASSWORD: ${{ secrets.SENDERPASSWORD }}
+        RECEIVER_EMAIL: ${{ secrets.RECEIVEREMAIL }}
       run: |
         # This creates an empty log file if it doesn't exist.
         # IMPORTANT: GitHub Actions runners are ephemeral.
