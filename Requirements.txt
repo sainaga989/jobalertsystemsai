@@ -1,0 +1,5 @@
+# No external libraries are strictly required for this basic script.
+# If you add web scraping libraries like BeautifulSoup or requests later,
+# list them here:
+# beautifulsoup4
+# requests
