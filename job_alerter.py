@@ -9,7 +9,7 @@ from datetime import datetime
 # --- Configuration ---
 # Your email credentials (use environment variables for security in production)
 SENDER_EMAIL = os.getenv('SENDER_EMAIL', 'ksnkrishna98@gmail.com')
-SENDER_PASSWORD = os.getenv('SENDER_PASSWORD', 'bcvdqnvaeimgaios') # This has been updated with your provided App Password
+SENDER_PASSWORD = os.getenv('SENDER_PASSWORD', 'vnaveahqcouhvbss') # This has been updated with your provided App Password
 RECEIVER_EMAIL = os.getenv('RECEIVER_EMAIL', 'ksnkrishna98@gmail.com')
 
 # Job search criteria
